@@ -1,6 +1,6 @@
 var config = {
-    style: 'mapbox://styles/branigan/cjz37rcb003ib1cr3s8rnkt2d',
-    accessToken: 'pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm01aG9hdTBlZGwzbXQ1ZXVrNHNmejAifQ.QHQA0N6XPWddCXtvoODHZg',
+    style: 'mapbox://styles/citystructuregeodev/cko3e4s3u063417l4rget6oh4',
+    accessToken: 'pk.eyJ1IjoiY2l0eXN0cnVjdHVyZWdlb2RldiIsImEiOiJja25ueDlzZGEwdGN3MnZwMW8zcGtmZmt2In0.v3O-fdC6ljls0PfnrMH_og',
     showMarkers: false,
     theme: 'dark',
     use3dTerrain: true,
@@ -21,22 +21,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [
-                {
-                    layer: 'gnpglaciers-1998',
-                    opacity: 0.25
-                },
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0.25
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0
-                }
-            ]
+            mapAnimation: 'flyTo',
+            
         },
         {
             id: 'merrill',
@@ -45,137 +31,153 @@ var config = {
             image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/2/attachments/2?token=ZbI4wkLviumrIl6Aj_XmeOkGqrRptUkdf2Hr5C7DkfsqFxc1L8gdeqig0-oiwbKavQOZaEBUlXSOknOYW4WfvXOKb-Kdoep48b8dIPqxvv6FBLpGCk7aKqqCCjnP-rpiB92jlgtPCIVtqGz7mZq4i8UrUB3F8ZY0wMvDb9I546D18XTBCNLmpo45qEdSXx49IMJTS0FMTkSJPVl0gwE99QbrTAV8OB13ZYFQS5Io6fhMZaRUQhYMqAHJZynYDi6pd2TPopALvoSf2G2uBn-DNXfURrDpJdAs_Lp0v_1DBT2vfAcG9LYvFh1fWIqtdZyj',
             description: 'EGLE & Tribal staff prepare to launch at Merrill Park in Comstock on the Kalamazoo River.  The purpose of the survey was to inspect sediment released from the lowering of the impoundment.',
             location: {
-                center: { lon: -85.53206, lat: 42.28058 },
-                zoom: 12.41,
+                center: { lon: -85.53731, lat: 42.28178 },
+                zoom: 13.16,
                 pitch: 43.00,
-                bearing: -52.00
+                bearing: -49.63
             },
-            onChapterEnter: [],
-            onChapterExit: [
-                // {
-                //     layer: 'gnpglaciers-2015',
-                //     opacity: 0
-                // }
-            ]
+            mapAnimation: 'flyTo',
+            
         },
         {
-            id: 'harrison2015',
+            id: 'turtleLogs',
             alignment: 'left',
-            title: 'Harrison Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Harrison Glacier lost 169 acres of surface area (about 37%).',
+            title: 'Numerous Turtles on Logs', 
+            image: 'https://drive.google.com/uc?export=download&id=1mRJS9IPIwkjB4WA4N-zzR3UWTyuaCqxo',
+            description: 'Several logs along this stretch had 5 or more turtles resting on them.  The turtles did not appear to be common painted or snapping turtles, and EGLE staff believes they are Map Turtles.',
             location: {
-                center: [-113.72917, 48.58938],
-                zoom: 12.92,
-                pitch: 39.50,
-                bearing: 36.00
+                center: { lon: -85.52359, lat: 42.28402 },
+                zoom: 15.13,
+                pitch: 59.00,
+                bearing: -86.43
             },
+            mapAnimation: 'flyTo',
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                   
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0
+                   
                 }
             ]
         },
         {
-            id: 'blackfoot1998',
+            id: 'oxbowDown',
             alignment: 'left',
-            title: 'Blackfoot Glacier, 1998',
-            image: '',
-            description: 'Blackfoot Glacier is the second largest of the remaining 25 glaciers in Glacier National Park, Montana. Blackfoot Glacier is just to the north of Blackfoot Mountain and near Jackson Glacier. When first documented in 1850, the glacier also included the now separate Jackson Glacier and together, they covered 1,875 acres (7.59 km2). In 1850, there were an estimated 150 glaciers in the park. Glaciologists have stated that by the year 2030, all the glaciers in the park may disappear.',
+            title: 'Oxbow Outflow',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/4/attachments/4?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            description: 'This is the outflow from the Oxbow where much of the current work is being conducted. Sheet pilings are blocking much of the flow from entering the Oxbow.',
             location: {
-                center: [-113.66573, 48.59181],
-                zoom: 12.92,
-                pitch: 51.50,
-                bearing: -26.40
+                center: { lon: -85.52589, lat: 42.28433 },
+                zoom: 15.73,
+                pitch: 59.00,
+                bearing: -99.23
             },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'blackfoot2015',
-            alignment: 'left',
-            title: 'Blackfoot Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Blackfoot Glacier lost 31 acres of surface area (about 8%).',
-            location: {
-                center: [-113.66573, 48.59181],
-                zoom: 12.92,
-                pitch: 51.50,
-                bearing: -26.40
-            },
+            mapAnimation: 'flyTo',
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                     
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0
+                    
                 }
             ]
         },
         {
-            id: 'agassiz1998',
+            id: 'dryBank',
             alignment: 'left',
-            title: 'Agassiz Glacier, 1998',
-            image: '',
-            description: 'Agassiz Glacier is in Glacier National Park in the U.S. state of Montana. It is named after Louis Agassiz, a Swiss-American glaciologist. The glacier is situated in a cirque to the southeast of Kintla Peak west of the Continental Divide. Agassiz Glacier is one of several glaciers that have been selected for monitoring by the U.S. Geological Survey\'s Glacier Monitoring Research program, which is researching changes to the mass balance of glaciers in and surrounding Glacier National Park.',
+            title: 'Upland Bank Stop',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/5/attachments/7?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            description: 'Due to an unexpected leaky kayak, the group made an emergency stop over here to plug the hole. We were able to continue to the planned take out point.',
             location: {
-                center: [-114.15881, 48.93439],
-                zoom: 13.51,
-                pitch: 41.00,
-                bearing: 78.33
+                center: { lon: -85.53355, lat: 42.28535 },
+                zoom: 16.64,
+                pitch: 73.00,
+                bearing: -102.43
             },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'agassiz2015',
-            alignment: 'left',
-            title: 'Agassiz Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Agassiz Glacier lost 108 acres of surface area (about 37%).',
-            location: {
-                center: [-114.15881, 48.93439],
-                zoom: 13.51,
-                pitch: 41.00,
-                bearing: 78.33
-            },
+            mapAnimation: 'flyTo',
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25,
+                     
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0
+                      
                 }
             ]
         },
         {
-            id: 'rainbow1998',
+            id: 'niceRif',
             alignment: 'left',
-            title: 'Rainbow Glacier, 1998',
-            image: '',
-            description: 'Rainbow Glacier is in Glacier National Park in the U.S. state of Montana. The glacier is situated immediately to the east of Rainbow Peak at an elevation between 8,500 feet (2,600 m) and 8,000 feet (2,400 m) above sea level. The glacier has visible crevasses in satellite imagery. Rainbow Glacier has shown modest retreat compared to other glaciers in Glacier National Park.',
+            title: 'Rocky Riffle',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/7/attachments/10?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            description: 'Rocky Riffle Area with some areas covered with sediments, and sediment deposits visible in the background',
             location: {
-                center: [-114.08659, 48.88039],
-                zoom: 13.09,
-                pitch: 50.00,
-                bearing: -53.60
+                center: { lon: -85.54202, lat: 42.28368 },
+                zoom: 16.64,
+                pitch: 74.00,
+                bearing: -88.87
             },
-            onChapterEnter: [],
+            mapAnimation: 'flyTo',
+            onChapterEnter: [
+                {
+                      
+                }
+            ],
+            onChapterExit: [
+                {
+                      
+                }
+            ]
+        },
+        {
+            id: 'smallDep',
+            alignment: 'left',
+            title: 'Sediment Notch Deposit',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/8/attachments/12?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            description: 'On the left bank sediments have accumulated in a notch between two sections of the CERLA landfills.',
+            location: {
+                center: { lon: -85.54849, lat: 42.28315 },
+                zoom: 16.64,
+                pitch: 75.00,
+                bearing: -68.87
+            },
+            mapAnimation: 'flyTo',
+            onChapterEnter: [
+                {
+                      
+                }
+            ],
+            onChapterExit: [
+                {
+                     
+                }
+            ]
+        },
+        {
+            id: 'largeDep',
+            alignment: 'left',
+            title: 'Large Sediment Bar',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/11/attachments/19?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            description: 'Considerable amounts of sediments are visible in this area, and have emerged several feet above the water during unseasonally dry conditions in spring 2021.',
+            location: {
+                center: { lon: -85.54929, lat: 42.28302 },
+                zoom: 17,
+                pitch: 75,
+                bearing: -56.44
+            },
+            mapAnimation: 'flyTo',
+            onChapterEnter: [
+                { 
+                   layer: 'kzoosurvey',
+                    opacity: 1 
+                }
+            ],
             onChapterExit: []
         },
         {
@@ -185,11 +187,13 @@ var config = {
             image: '',
             description: 'Between 1998 and 2015, Rainbow Glacier lost 17 acres of surface area (about 6%).',
             location: {
-                center: [-114.08659, 48.88039],
-                zoom: 13.09,
-                pitch: 50.00,
-                bearing: -53.60
+                center: { lon: -85.55230, lat: 42.28436 },
+                zoom: 17,
+                pitch: 75.00,
+                bearing: -38.04
             },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
             onChapterEnter: [
                 {
                     layer: 'gnpglaciers-2015',
@@ -215,6 +219,7 @@ var config = {
                 pitch: 48.50,
                 bearing: 164.00
             },
+            mapAnimation: 'flyTo',
             onChapterEnter: [],
             onChapterExit: []
         },
