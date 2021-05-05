@@ -5,7 +5,7 @@ var config = {
     theme: 'dark',
     use3dTerrain: true,
     title: 'Kalamazoo River Field Survey April 27th 2021',
-    subtitle: 'EGLE & Tribal float survey to review sediment deposits',
+    subtitle: 'EGLE & Tribal float survey of river sediment deposit zones',
     byline: '',
     footer: 'Data Collection and Story by NHBP Environmental Staff <a href="https://nhbp-nsn.gov/environmental/">NHBP ENV</a> <a href="https://storymaps.arcgis.com/collections/2f9f61b09e5b4860b527eff83cc08fb4/">StoryMap Collection</a>',
     chapters: [
@@ -26,10 +26,10 @@ var config = {
         },
         {
             id: 'merrill',
-            alignment: 'left',
+            alignment: 'left', 
             title: 'Merrill Park, Comstock',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/2/attachments/2?token=ZbI4wkLviumrIl6Aj_XmeOkGqrRptUkdf2Hr5C7DkfsqFxc1L8gdeqig0-oiwbKavQOZaEBUlXSOknOYW4WfvXOKb-Kdoep48b8dIPqxvv6FBLpGCk7aKqqCCjnP-rpiB92jlgtPCIVtqGz7mZq4i8UrUB3F8ZY0wMvDb9I546D18XTBCNLmpo45qEdSXx49IMJTS0FMTkSJPVl0gwE99QbrTAV8OB13ZYFQS5Io6fhMZaRUQhYMqAHJZynYDi6pd2TPopALvoSf2G2uBn-DNXfURrDpJdAs_Lp0v_1DBT2vfAcG9LYvFh1fWIqtdZyj',
-            description: 'EGLE & Tribal staff prepare to launch at Merrill Park in Comstock on the Kalamazoo River.  The purpose of the survey was to inspect sediment released from the lowering of the impoundment.',
+            image: 'https://drive.google.com/uc?export=download&id=1-AEZQFT5WtkFtTEcC3WbfF4Grebkatt7',
+            description: 'EGLE & Tribal staff prepare to launch at Merrill Park in Comstock on the Kalamazoo River.  The purpose of the survey was to inspect sediment released from the lowering of the impoundment.  Tribal Staff from NHBP Environmental and Gun Lake THPO participated to conduct a limited Cultural Survey. GPS Data and photos collected by NHBP Staff.',
             location: {
                 center: { lon: -85.53731, lat: 42.28178 },
                 zoom: 13.16,
@@ -42,9 +42,9 @@ var config = {
         {
             id: 'turtleLogs',
             alignment: 'left',
-            title: 'Numerous Turtles on Logs', 
+            title: 'Numerous Turtle Logs', 
             image: 'https://drive.google.com/uc?export=download&id=1mRJS9IPIwkjB4WA4N-zzR3UWTyuaCqxo',
-            description: 'Several logs along this stretch had 5 or more turtles resting on them.  The turtles did not appear to be common painted or snapping turtles, and EGLE staff believes they are Map Turtles.',
+            description: 'Several logs along this stretch had 5 or more turtles resting on them.  The turtles did not appear to be common painted or snapping turtles, and EGLE staff believes they may be Map Turtles.',
             location: {
                 center: { lon: -85.52359, lat: 42.28402 },
                 zoom: 15.13,
@@ -68,7 +68,7 @@ var config = {
             alignment: 'left',
             title: 'Oxbow Outflow',
             image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/4/attachments/4?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
-            description: 'This is the outflow from the Oxbow where much of the current work is being conducted. Sheet pilings are blocking much of the flow from entering the Oxbow.',
+            description: 'This is the outflow from the Oxbow where much of the current work is being conducted. Sheet pilings are blocking most of the flow from entering the Oxbow.',
             location: {
                 center: { lon: -85.52589, lat: 42.28433 },
                 zoom: 15.73,
@@ -92,7 +92,7 @@ var config = {
             alignment: 'left',
             title: 'Upland Bank Stop',
             image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/5/attachments/7?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
-            description: 'Due to an unexpected leaky kayak, the group made an emergency stop over here to plug the hole. We were able to continue to the planned take out point.',
+            description: 'Due to an unexpected leaky kayak, the group made an emergency stopover here to plug the hole. We were able to continue to the planned take out point.',
             location: {
                 center: { lon: -85.53355, lat: 42.28535 },
                 zoom: 16.64,
@@ -181,11 +181,11 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'rainbow2015',
+            id: 'landfillDep',
             alignment: 'left',
-            title: 'Rainbow Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Rainbow Glacier lost 17 acres of surface area (about 6%).',
+            title: 'River Bend & Deposition',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/12/attachments/20?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            description: 'The River takes an almost 90 degree bend northward, and large sediment deposits are continued on the western bank.  This picture is near the end of a large landfill on the river from the ongoing CERCLA Kalamazoo River PCB site.',
             location: {
                 center: { lon: -85.55230, lat: 42.28436 },
                 zoom: 17,
@@ -193,98 +193,184 @@ var config = {
                 bearing: -38.04
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                    
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0
+                    
                 }
             ]
         },
         {
-            id: 'kintla1998',
+            id: 'pedBridge',
             alignment: 'left',
-            title: 'Kintla Glacier, 1998',
-            image: '',
-            description: 'Kintla Glacier is in Glacier National Park in the U.S. state of Montana. The glacier is situated on a plateau 2 miles (3.2 km) southwest of Kintla Peak at an elevation between 8,700 feet (2,700 m) and 7,700 feet (2,300 m) above sea level. The glacier has numerous crevasses and is actually two glaciers.',
+            title: 'Bridges Old & New', 
+            image: 'https://drive.google.com/uc?export=download&id=1PkgeZ3Zz1gWJHJRTfasW2lfv-wfP5_fH',
+            description: 'NHBP, EGLE, and Gun Lake staff float underneath an old railroad trestle, with the newer Kalamazoo River Valley Trail bicycle bridge visble just downstream. <a href="https://www.kalcounty.com/parks/krvt/" target="_blank">KRVT Website</a> ',
             location: {
-                center: [-114.18755, 48.92880],
-                zoom: 13.09,
-                pitch: 48.50,
-                bearing: 164.00
+                center: { lon: -85.55929, lat: 42.28936 },
+                zoom: 17.00,
+                pitch: 75.00,
+                bearing: -49.84
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [],
             onChapterExit: []
         },
         {
-            id: 'kintla2015',
+            id: 'trainDep',
             alignment: 'left',
-            title: 'Kintla Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Harrison Glacier lost 24 acres of surface area (about 10%).',
+            title: 'Rail Staging Yard',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/13/attachments/24?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            description: 'The group paddles past a large railyard directly off the eastern bank of the Kalamazoo River inside the City.',
             location: {
-                center: [-114.18755, 48.92880],
-                zoom: 13.09,
-                pitch: 48.50,
-                bearing: 164.00
+                center: { lon: -85.56095, lat: 42.29093 },
+                zoom: 17.16,
+                pitch: 75.00,
+                bearing: -77.04
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
-                }
+                } 
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0
+                   
                 }
             ]
         },
         {
-            id: 'sperry1998',
+            id: 'mayors',
             alignment: 'left',
-            title: 'Sperry Glacier, 1998',
-            image: '',
-            description: 'Sperry Glacier is a glacier on the north slopes of Gunsight Mountain west of the Continental Divide in Glacier National Park in the U.S. state of Montana. Although many geologic features of Glacier National Park were formed during the much longer period of glaciation ending over 10,000 years ago, Sperry Glacier — like all the glaciers in the park today — is a product of the recent Little Ice Age, the period of cooler average temperatures starting in about the 13th century and concluding in the mid-19th century.',
+            title: 'Mayors Riverfront Park', 
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/14/attachments/25?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            description: 'Sediment deposits along the western bank near the City of Kalamazoo Mayors Riverfront Park.  The Kalamazoo Farmers Market will be held at the Park during 2021</br> <a href="http://pfcmarkets.com/" target="_blank">PFC Farmers Market Site</a>',
             location: {
-                center: [-113.75672, 48.62433],
-                zoom: 13.68,
-                pitch: 34.50,
-                bearing: 106.40
+                center: { lon: -85.56420, lat: 42.29218 },
+                zoom: 17.00,
+                pitch: 75.00,
+                bearing: -76.24
             },
             onChapterEnter: [],
             onChapterExit: []
         },
         {
-            id: 'sperry2015',
+            id: 'michBridge',
             alignment: 'left',
-            title: 'Sperry Glacier, 2015',
-            image: '',
-            description: 'Between 1998 and 2015, Harrison Glacier lost 37 acres of surface area (about 16%).',
+            title: 'Downtown Sediments',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/15/attachments/27?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            description: 'Past the Michigan Ave Bridge and confluences with the Portage and Arcadia Creeks, the group flows past an area with an emergent sediment bar on the east bank.',
             location: {
-                center: [-113.75672, 48.62433],
-                zoom: 13.68,
-                pitch: 34.50,
-                bearing: 106.40
+                center: { lon: -85.57242, lat: 42.29651 },
+                zoom: 17.00,
+                pitch: 75.00,
+                bearing: 16.80
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                    
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0
+                
+                }
+            ]
+         },
+         {
+            id: 'bankDebris',
+            alignment: 'left',
+            title: 'Bank Debris',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/16/attachments/28?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            description: 'Debris and trash are notable and scattered along the banks through this stretch.',
+            location: {
+                center: { lon: -85.57289, lat: 42.29891 },
+                zoom: 17.00,
+                pitch: 75.00,
+                bearing: -19.20
+            },
+            onChapterEnter: [
+                {
+                  
+                }
+            ],
+            onChapterExit: [
+                {
+                   
+                }
+            ]
+         },
+         {
+            id: 'gullBridge',
+            alignment: 'left',
+            title: 'Gull Road Bridge',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/17/attachments/29?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            description: 'Paddling past the Gull Road/M-43 Bridge near the take out point at Verberg Park.',
+            location: {
+                center: { lon: -85.57364, lat: 42.29939 },
+                zoom: 17.00,
+                pitch: 75.00,
+                bearing: -42.65
+            },
+            onChapterEnter: [
+                {
+                    
+                }
+            ],
+            onChapterExit: [
+                {
+                  
+                }
+            ]
+         },
+         {
+            id: 'inlet',
+            alignment: 'left',
+            title: 'Verberg Sediments',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/20/attachments/34?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            description: 'Sediment deposit across from the Verberg lagoon inlet.  This is where the group exited the River.',
+            location: {
+                center: { lon: -85.57335, lat: 42.30203 },
+                zoom: 17.00,
+                pitch: 75.00,
+                bearing: -0.70
+            },
+            onChapterEnter: [
+                {
+                    
+                }
+            ],
+            onChapterExit: [
+                {
+                    
+                }
+            ]
+         },
+         {
+            id: 'ending',
+            alignment: 'center',
+            title: 'Thanks For Joining Us!',
+            image: 'https://drive.google.com/uc?export=download&id=1wknYjdufHc8FAOwdpG-zlSGyc3EKYWiR',
+            description: 'Glad you could join us for this paddle survey of the Kalamazoo River in the City and Comstock Township.  We were able to collect GPS locations for large sediment deposits, and sited some notable wildlife such as Map Turtles and an Osprey Nest.  See Michigan Water Trails for maps and info on accessing our State Waterways: <a href="https://www.michiganwatertrails.org/default.asp" target="_blank">Michigan Water Trails</a>', 
+            location: {
+                center: { lon: -85.57722, lat: 42.30513 },
+                zoom: 12.5,
+                pitch: 70.00,
+                bearing: -49.68
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            onChapterEnter: [
+                {
+                    
+                }
+            ],
+            onChapterExit: [
+                {
+                    
                 }
             ]
          }
