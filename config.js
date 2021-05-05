@@ -7,7 +7,7 @@ var config = {
     title: 'Kalamazoo River Field Survey April 27th 2021',
     subtitle: 'EGLE & Tribal float survey of river sediment deposit zones',
     byline: '',
-    footer: 'Data Collection and Story by NHBP Environmental Staff <a href="https://nhbp-nsn.gov/environmental/">NHBP ENV</a> <a href="https://storymaps.arcgis.com/collections/2f9f61b09e5b4860b527eff83cc08fb4/">StoryMap Collection</a>',
+    footer: 'Data Collection and Story by NHBP Environmental Staff <a href="https://nhbp-nsn.gov/environmental/" target="_blank">NHBP ENV</a> - <a href="https://storymaps.arcgis.com/collections/2f9f61b09e5b4860b527eff83cc08fb4/" target="_blank">StoryMap Collection</a>',
     chapters: [
         {
             id: 'kzooLanding',
@@ -357,7 +357,7 @@ var config = {
             description: 'Glad you could join us for this paddle survey of the Kalamazoo River in the City and Comstock Township.  We were able to collect GPS locations for large sediment deposits, and sited some notable wildlife such as Map Turtles and an Osprey Nest.  See Michigan Water Trails for maps and info on accessing our State Waterways: <a href="https://www.michiganwatertrails.org/default.asp" target="_blank">Michigan Water Trails</a>', 
             location: {
                 center: { lon: -85.57722, lat: 42.30513 },
-                zoom: 12.5,
+                zoom: 11.5,
                 pitch: 70.00,
                 bearing: -49.68
             },
