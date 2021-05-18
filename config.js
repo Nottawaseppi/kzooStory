@@ -67,7 +67,7 @@ var config = {
             id: 'oxbowDown',
             alignment: 'left',
             title: 'Oxbow Outflow',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/4/attachments/4?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/4/attachments/4',
             description: 'This is the outflow from the Oxbow where much of the current work is being conducted. Sheet pilings are blocking most of the flow from entering the Oxbow.',
             location: {
                 center: { lon: -85.52589, lat: 42.28433 },
@@ -91,7 +91,7 @@ var config = {
             id: 'dryBank',
             alignment: 'left',
             title: 'Upland Bank Stop',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/5/attachments/7?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/5/attachments/7',
             description: 'Due to an unexpected leaky kayak, the group made an emergency stopover here to plug the hole. We were able to continue to the planned take out point.',
             location: {
                 center: { lon: -85.53355, lat: 42.28535 },
@@ -115,7 +115,7 @@ var config = {
             id: 'niceRif',
             alignment: 'left',
             title: 'Rocky Riffle',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/7/attachments/10?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/7/attachments/10',
             description: 'Rocky Riffle Area with some areas covered with sediments, and sediment deposits visible in the background',
             location: {
                 center: { lon: -85.54202, lat: 42.28368 },
@@ -139,7 +139,7 @@ var config = {
             id: 'smallDep',
             alignment: 'left',
             title: 'Sediment Notch Deposit',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/8/attachments/12?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/8/attachments/12',
             description: 'On the left bank sediments have accumulated in a notch between two sections of the CERLA landfills.',
             location: {
                 center: { lon: -85.54849, lat: 42.28315 },
@@ -163,7 +163,7 @@ var config = {
             id: 'largeDep',
             alignment: 'left',
             title: 'Large Sediment Bar',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/11/attachments/19?token=Do3WVMQJ-DT6z65M-J1nc8SEgwPDW6Ap64sNaUrhOnbvpWx8Wu8KvIGt8G8VGKPzh6pdyQpTfSNGXcLVBOkpB6mgCV6nwGNUpEQgavqGxC8UE1MS3LTwiBxkFjYmo8YR8WePWtrs-MV2bUGa9VDyblInyJfGVuhSFRru3aFH5XyG-qcQaUqkQrxnqKynkOR_EiqLW5QViqRP5AYrUFK1J53mMqM2Str9wsG29coEcDAFvwGteRkuYIi-fWryxjMRloqcB-GlWk98w-l_xsv4idm7MH9xgziAlgblBZ6SPm87jn4vTcMPt8F_Iz0wgoae',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/11/attachments/19',
             description: 'Considerable amounts of sediments are visible in this area, and have emerged several feet above the water during unseasonally dry conditions in spring 2021.',
             location: {
                 center: { lon: -85.54929, lat: 42.28302 },
@@ -184,7 +184,7 @@ var config = {
             id: 'landfillDep',
             alignment: 'left',
             title: 'River Bend & Deposition',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/12/attachments/20?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/12/attachments/20',
             description: 'The River takes an almost 90 degree bend northward, and large sediment deposits are continued on the western bank.  This picture is near the end of a large landfill on the river from the ongoing CERCLA Kalamazoo River PCB site.',
             location: {
                 center: { lon: -85.55230, lat: 42.28436 },
@@ -224,7 +224,7 @@ var config = {
             id: 'trainDep',
             alignment: 'left',
             title: 'Rail Staging Yard',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/13/attachments/24?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/13/attachments/24',
             description: 'The group paddles past a large railyard directly off the eastern bank of the Kalamazoo River inside the City.',
             location: {
                 center: { lon: -85.56095, lat: 42.29093 },
@@ -246,7 +246,7 @@ var config = {
             id: 'mayors',
             alignment: 'left',
             title: 'Mayors Riverfront Park', 
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/14/attachments/25?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/14/attachments/25',
             description: 'Sediment deposits along the western bank near the City of Kalamazoo Mayors Riverfront Park.  The Kalamazoo Farmers Market will be held at the Park during 2021</br> <a href="http://pfcmarkets.com/" target="_blank">PFC Farmers Market Site</a>',
             location: {
                 center: { lon: -85.56420, lat: 42.29218 },
@@ -261,7 +261,7 @@ var config = {
             id: 'michBridge',
             alignment: 'left',
             title: 'Downtown Sediments',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/15/attachments/27?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/15/attachments/27',
             description: 'Past the Michigan Ave Bridge and confluences with the Portage and Arcadia Creeks, the group flows past an area with an emergent sediment bar on the east bank.',
             location: {
                 center: { lon: -85.57242, lat: 42.29651 },
@@ -284,7 +284,7 @@ var config = {
             id: 'bankDebris',
             alignment: 'left',
             title: 'Bank Debris',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/16/attachments/28?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/16/attachments/28',
             description: 'Debris and trash are notable and scattered along the banks through this stretch.',
             location: {
                 center: { lon: -85.57289, lat: 42.29891 },
@@ -307,7 +307,7 @@ var config = {
             id: 'gullBridge',
             alignment: 'left',
             title: 'Gull Road Bridge',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/17/attachments/29?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/17/attachments/29',
             description: 'Paddling past the Gull Road/M-43 Bridge near the take out point at Verberg Park.',
             location: {
                 center: { lon: -85.57364, lat: 42.29939 },
@@ -330,7 +330,7 @@ var config = {
             id: 'inlet',
             alignment: 'left',
             title: 'Verberg Sediments',
-            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/20/attachments/34?token=qeifTggHn1BPsOJXZCXBZksm3k1JdzVUo7oxyF2KkPvDw0DzG8TwG3vVIZFw1rkgVX434_REeBC84bdFlCE7F7eOJeRgxDR3tlD4HNQiP2MQ8nAYmonqRQUWJ8NavsFHjOomxya4j1FVqNGhGk_xDNziT1kFTv4UAvV0oAkLc894umdb1BKELTjP20uVBmbxZVf5l7VDaV0PzyS8PKx9ffi-bcAwXPGtp2kvzU02fnZSRJ6JsaST80YKGQZVNCp0ot-zHFkIGhGc0wREv3G644fFVTbqSGw9kkwCp3nTF42cbP4grq_6KVGOHAjoQ-vg',
+            image: 'https://services5.arcgis.com/RsKCQCx9eUKixVOM/arcgis/rest/services/service_f13c39e417024074b738a4e6549c53aa/FeatureServer/0/20/attachments/34',
             description: 'Sediment deposit across from the Verberg lagoon inlet.  This is where the group exited the River.',
             location: {
                 center: { lon: -85.57335, lat: 42.30203 },
