@@ -14,7 +14,7 @@ var config = {
             alignment: 'center',
             title: 'Morrow Pond November 2020',
             image: '',
-            description: '<iframe width="600" height="316" src="https://www.youtube-nocookie.com/embed/zn-5QsjeQIQ?version=3&loop=1&playlist=zn-5QsjeQIQ&autoplay=1&modestbranding=1&rel=0&mute=1&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></br>The Morrow Pond is a human made impoundment of the Kalamazoo River between Comstock and Galesburg, Michigan.  It was drawn down in late 2019 to repair a hydropower dam structure.  This is UAV video of the lowered impoundment in November 2020.',
+            description: '<iframe width="100%" height="316" src="https://www.youtube-nocookie.com/embed/zn-5QsjeQIQ?version=3&loop=1&playlist=zn-5QsjeQIQ&autoplay=1&modestbranding=1&rel=0&mute=1&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></br>The Morrow Pond is a human made impoundment of the Kalamazoo River between Comstock and Galesburg, Michigan.  It was drawn down in late 2019 to repair a hydropower dam structure.  This is UAV video of the lowered impoundment in November 2020.',
             location: {
                 center: [-85.50457, 42.28606],
                 zoom: 11,
