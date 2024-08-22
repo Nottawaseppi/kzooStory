@@ -28,7 +28,7 @@ var config = {
             id: 'merrill',
             alignment: 'left', 
             title: 'Merrill Park, Comstock',
-            image: 'https://drive.google.com/uc?export=download&id=1-AEZQFT5WtkFtTEcC3WbfF4Grebkatt7',
+            image: 'https://drive.usercontent.google.com/download?id=1-AEZQFT5WtkFtTEcC3WbfF4Grebkatt7&authuser=0',
             description: 'EGLE & Tribal staff prepare to launch at Merrill Park in Comstock on the Kalamazoo River.  The purpose of the survey was to inspect sediment released from the lowering of the impoundment.  Tribal Staff from NHBP Environmental and Gun Lake THPO participated to conduct a limited Cultural Survey. GPS Data and photos collected by NHBP Staff.',
             location: {
                 center: { lon: -85.53731, lat: 42.28178 },
