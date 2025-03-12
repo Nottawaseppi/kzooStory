@@ -28,7 +28,7 @@ var config = {
             id: 'merrill',
             alignment: 'left', 
             title: 'Merrill Park, Comstock',
-            image: 'https://drive.google.com/uc?export=download&id=1-AEZQFT5WtkFtTEcC3WbfF4Grebkatt7',
+            image: 'https://raw.githubusercontent.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/merrill_park.jpg',
             description: 'EGLE & Tribal staff prepare to launch at Merrill Park in Comstock on the Kalamazoo River.  The purpose of the survey was to inspect sediment released from the lowering of the impoundment.  Tribal Staff from NHBP Environmental and Gun Lake THPO participated to conduct a limited Cultural Survey. GPS Data and photos collected by NHBP Staff.',
             location: {
                 center: { lon: -85.53731, lat: 42.28178 },
@@ -208,7 +208,7 @@ var config = {
             id: 'pedBridge',
             alignment: 'left',
             title: 'Bridges Old & New', 
-            image: 'https://github.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/bridges.jpg',
+            image: 'https://github.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/bridges.jpg?raw=true',
             description: 'NHBP, EGLE, and Gun Lake staff float underneath an old railroad trestle, with the newer Kalamazoo River Valley Trail bicycle bridge visble just downstream. <a href="https://www.kalcounty.com/parks/krvt/" target="_blank">KRVT Website</a> ',
             location: {
                 center: { lon: -85.55929, lat: 42.28936 },
