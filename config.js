@@ -28,7 +28,7 @@ var config = {
             id: 'merrill',
             alignment: 'left', 
             title: 'Merrill Park, Comstock',
-            image: 'https://raw.githubusercontent.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/merrill_park.jpg',
+            image: 'https://github.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/merrill_park.jpg?raw=true',
             description: 'EGLE & Tribal staff prepare to launch at Merrill Park in Comstock on the Kalamazoo River.  The purpose of the survey was to inspect sediment released from the lowering of the impoundment.  Tribal Staff from NHBP Environmental and Gun Lake THPO participated to conduct a limited Cultural Survey. GPS Data and photos collected by NHBP Staff.',
             location: {
                 center: { lon: -85.53731, lat: 42.28178 },
@@ -43,7 +43,7 @@ var config = {
             id: 'turtleLogs',
             alignment: 'left',
             title: 'Numerous Turtle Logs', 
-            image: 'https://drive.google.com/uc?export=download&id=1mRJS9IPIwkjB4WA4N-zzR3UWTyuaCqxo',
+            image: 'https://github.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/turtle_logs.jpg?raw=true',
             description: 'Several logs along this stretch had 5 or more turtles resting on them.  The turtles did not appear to be common painted or snapping turtles, and EGLE staff believes they may be Map Turtles.',
             location: {
                 center: { lon: -85.52359, lat: 42.28402 },
@@ -353,7 +353,7 @@ var config = {
             id: 'ending',
             alignment: 'center',
             title: 'Thanks For Joining Us!',
-            image: 'https://drive.google.com/uc?export=download&id=1wknYjdufHc8FAOwdpG-zlSGyc3EKYWiR',
+            image: 'https://github.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/end_screen.jpg?raw=true',
             description: 'Glad you could join us for this paddle survey of the Kalamazoo River in the City and Comstock Township.  We were able to collect GPS locations for large sediment deposits, and sited some notable wildlife such as Map Turtles and an Osprey Nest.  See Michigan Water Trails for maps and info on accessing our State Waterways: <a href="https://www.michiganwatertrails.org/default.asp" target="_blank">Michigan Water Trails</a>', 
             location: {
                 center: { lon: -85.57722, lat: 42.30513 },
