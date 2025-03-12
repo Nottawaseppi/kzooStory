@@ -208,7 +208,7 @@ var config = {
             id: 'pedBridge',
             alignment: 'left',
             title: 'Bridges Old & New', 
-            image: 'https://drive.google.com/uc?export=download&id=1PkgeZ3Zz1gWJHJRTfasW2lfv-wfP5_fH',
+            image: 'https://github.com/Nottawaseppi/kzooStory/blob/1aede54a85bc2d16c3b32339ef86b9afb89e50d8/assets/bridges.jpg',
             description: 'NHBP, EGLE, and Gun Lake staff float underneath an old railroad trestle, with the newer Kalamazoo River Valley Trail bicycle bridge visble just downstream. <a href="https://www.kalcounty.com/parks/krvt/" target="_blank">KRVT Website</a> ',
             location: {
                 center: { lon: -85.55929, lat: 42.28936 },
